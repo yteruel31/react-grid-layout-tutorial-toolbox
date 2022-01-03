@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    span, h1, h2, h3, svg, input, p {
+        @apply text-alt-text;
+    }
+}
